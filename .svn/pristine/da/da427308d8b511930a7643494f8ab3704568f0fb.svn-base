@@ -1,0 +1,81 @@
+<div class="population">
+    <div class="population_layout">
+        <div class="population_a">
+            <label>购车人姓名：</label>
+            <span>杨波</span>
+        </div>
+    </div>
+</div>
+<div class="population">
+    <div class="population_layout">
+        <div class="financial_table_box">
+            <table class="table table-responsive financial_table">
+                <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>入账日期</th>
+                    <th>费用项目</th>
+                    <th>收入/支出</th>
+                    <th>金额</th>
+                    <th>数据关联</th>
+                    <th>打款方式</th>
+                    <th>收款银行</th>
+                    <th>收款账号</th>
+                    <th>备注</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2016/1/19</td>
+                    <td>公正抵押费</td>
+                    <td>收入</td>
+                    <td>400.0000</td>
+                    <td></td>
+                    <td>网银</td>
+                    <td>建行</td>
+                    <td>6227102035788972552</td>
+                    <td>客户妈妈接的短话，告知逾期客户妈妈接的短话，告知逾期客户妈妈接的短话，告知逾期客户妈妈接的短话，告知逾期客户妈妈接的短话，告知逾期 </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2016/1/19</td>
+                    <td>公正抵押费</td>
+                    <td>收入</td>
+                    <td>400.0000</td>
+                    <td></td>
+                    <td>网银</td>
+                    <td>建行</td>
+                    <td>6227102035788972552</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2016/1/19</td>
+                    <td>公正抵押费</td>
+                    <td>收入</td>
+                    <td>400.0000</td>
+                    <td></td>
+                    <td>网银</td>
+                    <td>浦发刷卡</td>
+                    <td>6227102035788972552</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2016/1/19</td>
+                    <td>公正抵押费</td>
+                    <td>支出</td>
+                    <td>400.0000</td>
+                    <td></td>
+                    <td>网银</td>
+                    <td>建行</td>
+                    <td>6227102035788972552</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

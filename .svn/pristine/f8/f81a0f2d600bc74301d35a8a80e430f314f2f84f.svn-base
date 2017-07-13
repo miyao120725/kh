@@ -1,0 +1,217 @@
+/*
+*   客户信息完善样式
+*/
+.information_modal{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)!important;
+    -webkit-transform: translate(-50%,-50%)!important;
+    -moz-transform: translate(-50%,-50%)!important;
+    -ms-transform: translate(-50%,-50%)!important;
+    -o-transform: translate(-50%,-50%)!important;
+}
+.information_title{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.modal_back{
+    background: #7b8aa7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.close_f{
+    color: #ffffff;
+}
+
+
+.information_div_one{
+    display: table;
+    width:100%;
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+.input-group_gai{
+    font-size: 16px;
+    color: #525c6d;
+}
+.sex_span,.adress_span,.remarks_span{
+    letter-spacing: 32px;
+}
+.email_span{
+    letter-spacing: 7.5px;
+}
+.ip_spacing{
+    letter-spacing: 30px;
+}
+.car_spacing{
+    letter-spacing: 8px;
+}
+.information_table_done{
+    display: table-cell;
+}
+.information_form_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    color: #525c6d;
+}
+.information_input_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    padding: 6px;
+    color: #525c6d;
+    font-size: 16px;
+}
+.dis_table,.information_div_btn{
+    display: table;
+}
+.dis_table_cell1{
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dis_table_cell2{
+    display: table-cell;
+    width: 100%;
+}
+.customer_name_ipt{
+    max-width: 116px;
+}
+.age_ipt{
+    max-width: 100px;
+}
+.sex_select{
+    min-width: 60px;
+}
+.age_span{
+    letter-spacing: 32px;
+    margin-left: 38px;
+}
+.marital_status_select,.customer_type_select{
+    min-width: 115px;
+}
+.dis_flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex_l{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.information_text{
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    height:104px;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn_close{
+    background: url("../img/116X44_h.png") no-repeat;
+    font-size: 16px;
+}
+.btn_close:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat;
+    color:#fff;
+    text-decoration: none;
+}
+.save_btn{
+    background: url("../img/save.png") no-repeat;
+    font-size: 16px;
+}
+.save_btn:hover{
+    background: url("../img/save_hover.png") no-repeat;
+    color:#fff;
+}
+.btn-width{
+    display: inline-block;
+    width: 116px;
+    height: 44px;
+    line-height: 44px;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.btn-center{
+    margin: 0 auto;
+    padding: 30px;
+}
+.information_margin{
+    margin-bottom: 15px;
+}
+.information_check input{
+   margin-right: 5px;
+    margin-left: 15px;
+}
+.information_checkbox{
+    margin-left: 15px;
+    float: left;
+
+}
+.information_checkbox label{
+    font-weight: normal!important;
+    cursor: pointer;
+}
+.information_checkbox div{
+    margin-bottom: 4px;
+}
+.add_click{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.add_down_click img{
+    cursor: pointer;
+}
+.add_click a{
+    display: block
+}
+.add_down{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    padding: 20px;
+    background: #7b8aa7;
+    border-radius: 4px;
+    z-index: 1;
+    display: none;
+}
+.min_table{
+    min-width: 250px;
+}
+.mag span{
+    color: #ffffff!important;
+}
+.biao_zu{
+    padding-left: 10px;
+    color: #f27668;
+}
+.number_close{
+    height:13px;
+    width:13px;
+    border-radius: 50%;
+    background: url("../img/login_images/acrossTab-close.png") no-repeat;
+    display: block;
+    cursor: pointer;
+}
+.number_close:hover{
+    background: url("../img/login_images/acrossTab-close.png") no-repeat 0 -13px;
+}
+.add_down_click{
+    padding-left:56px;
+}
+.add_down_btn{
+    margin: 10px auto;
+}
+.down_btn{
+    padding: 10px 20px;
+    margin: 0 15px;
+    color: #ffffff;
+    border-radius: 6px;
+}

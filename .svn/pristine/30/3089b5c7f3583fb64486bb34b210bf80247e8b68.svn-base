@@ -1,0 +1,309 @@
+<div class="container-fluid" style="background: #ffffff">
+    <div class="information_content" style="margin: auto;width: 83%">
+        <form action="">
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gais dis_table_cell1">工单编号：</span>
+                        <div class="information_word dis_table_cell2">D161017005</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gai dis_table_cell1">创建时间：</span>
+                        <div class="information_word dis_table_cell2">2016-10-16</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">工单状态：</span>
+                        <div class="information_word dis_table_cell2">待处理</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;工单大类：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>大类一</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;工单小类：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>小类一</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">工单来源：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>来源一</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;工单处理方式：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>内部协同</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tr">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;优先等级：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>一般</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table" >
+                        <span class="input-group_gai dis_table_cell1">客户姓名：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="姓名">
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="input-group_gai dis_table" >
+                        <span class="input-group_gai dis_table_cell1">&nbsp;手机号：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入手机号码">
+                    </div>
+                </div>
+                <div class="information_table_done tr">
+                    <div class="input-group_gai dis_table" >
+                        <span class="input-group_gai dis_table_cell1">&nbsp;身份证号码：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入身份证号码">
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="dis_flex">
+                        <div>
+                            <div>
+                                <span class="input-group_gai"><span class="ip_spacing">地</span>址：</span><select class="information_form_control">
+                                <option>湖南</option>
+                            </select>
+                                <span class="input-group_gai">省</span>
+                                <select class="information_form_control">
+                                    <option>长沙</option>
+                                </select>
+                                <span class="input-group_gai">市</span>
+                                <select class="information_form_control">
+                                    <option>岳麓区</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="flex_l">
+                            <div class="dis_table">
+                                <span class="input-group_gai dis_table_cell1">县/区</span>
+                                <input type="text" class="information_input_control dis_table_cell2" placeholder="详细地址">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai"><span class="car_spacing">车牌</span>号：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入车牌号">
+                    </div>
+                </div>
+                <div class="information_table_done tr">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai"> &nbsp;车&nbsp;&nbsp;型：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入车牌名称">
+                    </div>
+                </div>&nbsp;
+                <div class="information_table_done tr">
+                    <select class="information_form_control" style="width: 100%;">
+                        <option>奔驰CLA级</option>
+                    </select>
+                </div>&nbsp;
+                <div class="information_table_done tr">
+                    <select class="information_form_control" style="width: 100%;">
+                        <option>2016款 改款 CLA 200 动感款</option>
+                    </select>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">升级投诉：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>是</option>
+                            <option>否</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;重复投诉：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>是</option>
+                            <option>否</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;客户等级：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>VIP</option>
+                            <option>VVIP</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;客户类型：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>系统客户</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done tr">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;客户类别：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>个人客户</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table" >
+                        <span class="input-group_gai dis_table_cell1">期望反馈时限：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入期望反馈时限">
+                    </div>
+                </div>
+                <div class="information_table_done tc">
+                    <div class="input-group_gai dis_table" >
+                        <span class="input-group_gai dis_table_cell1">&nbsp;客户特征：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="输入客户特征">
+                    </div>
+                </div>
+            </div>
+            <div class="dis_flex information_margin">
+                <span class="input-group_gai">受理内容：</span>
+                <textarea class="flex_l information_ktext" placeholder="输入相关受理内容"></textarea>
+            </div>
+            <div class="information_div_one">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gai dis_table_cell1"><span class="car_spacing">创建</span>人：</span>
+                        <div class="information_word dis_table_cell2">专专</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">创建部门：</span>
+                        <div class="information_word dis_table_cell2">客服部门</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">&nbsp;归属机构：</span>
+                        <select class="information_form_control dis_table_cell2">
+                            <option>全部</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="information_table_done right_btn">
+                    <button type="button" class="btn-details"  data-toggle="modal" data-target="#history_record">查看历史记录处理</button>
+                </div>
+            </div>
+            <div class="dis_flex information_margin">
+                <span class="input-group_gai">处理内容：</span>
+                <textarea class="flex_l information_ktext" placeholder="输入相关受理内容"></textarea>
+            </div>
+            <div class="information_div_btn btn-center">
+                <a href="WorkOrder.html" class="btn btn-width btn_close">关闭</a>
+            </div>
+        </form>
+    </div>
+    <div class="modal fade" id="history_record" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg history_modal">
+            <div class="modal-header modal_back1">
+                <button type="button" class="close" data-dismiss="modal"><span class="close_f" aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title history_title">历史处理记录</h4>
+            </div>
+            <div class="modal-content history_table_modal_content">
+                <div class="modal-body history_table_modal_box">
+                    <table class="table table-striped history_table_modal">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>处理时间</th>
+                            <th>处理状态</th>
+                            <th>处理内容</th>
+                            <th>归属机构</th>
+                            <th>处理人</th>
+                            <th>处理部门</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>2016-10-13</td>
+                            <td>跟踪中</td>
+                            <td>具体处理内容</td>
+                            <td>某某机构</td>
+                            <td>某某某</td>
+                            <td>某某部门</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>2016-10-13</td>
+                            <td>跟踪中</td>
+                            <td>具体处理内容</td>
+                            <td>某某机构</td>
+                            <td>某某某</td>
+                            <td>某某部门</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>2016-10-13</td>
+                            <td>跟踪中</td>
+                            <td>具体处理内容</td>
+                            <td>某某机构</td>
+                            <td>某某某</td>
+                            <td>某某部门</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="modal-footer history_table_modal_footer">
+                        <nav class="rt knowledge_box_zyl">
+                            <ul class="pagination history_z_zyl">
+                                <li class="history_zpage_zyl"><a href="#">&lt;上一页</a></li>
+                                <li ><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                <li class="active"><a href="#">2<span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">...<span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                                <li class="next_page_zyl"><a href="#">下一页&gt;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        Title(".WorkOrder-title","工单详情");
+        var a = $(".btn-width"),d = ".WorkOrder";
+        Jump(a,d);
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

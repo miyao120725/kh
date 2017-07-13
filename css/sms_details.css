@@ -1,0 +1,173 @@
+.sms_details_box{
+    width:100%;
+    background: #fff;
+    padding-top:20px;
+}
+.sms_details_btn_box>h1{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    background: #f2a668;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.sms_details_btn_box{
+    margin-bottom:10px;
+    padding-right: 40px;
+}
+.whether_successful{
+   color: #525c6d;
+    font-size: 16px;
+}
+.whether_successful select{
+    width:124px;
+    height:44px;
+    border:1px solid #eaedf4;
+    font-size: 16px;
+    color:#ADB6C2;
+    border-radius: 2px;
+    padding-left:10px;
+    margin-right:50px;
+}
+.inquiry button{
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background: url("../img/116X44_h.png") no-repeat;
+    margin-right:50px;
+    }
+.inquiry button:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat;
+}
+.bulk_retransmission button{
+    width:132px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background: url("../img/132X44.png") no-repeat;
+}
+.bulk_retransmission button:hover{
+    background: url("../img/132X44_hover.png") no-repeat;
+}
+.responsive_tab_box{
+    width:100%;
+    padding:0 14px 30px 14px;
+    overflow-x: inherit !important;
+}
+.responsive_tab_box .responsive_tab {
+    width:100%;
+    text-align: center;
+    border:1px solid #E9ECF3;
+    border-bottom: none;
+    margin:0 !important;
+}
+.responsive_tab thead th{
+    padding:0 !important;
+    background: #f4f7fc;
+    text-align: center;
+    height:60px;
+    line-height: 60px !important;
+    font-size: 16px;
+    color: #525c6d;
+    border:none !important;
+}
+.responsive_tab>tbody td{
+    padding:0 !important;
+    height:60px;
+    line-height: 60px !important;
+    font-size: 16px;
+    color: #6d798d;
+    border:none !important;
+}
+.responsive_tab>tbody>tr:hover{
+    background: #F8FAFD;
+}
+.checkboxFour{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkboxFour  input{
+    width: 19px;
+    height: 19px;
+    color:#fff;
+
+}
+.checkboxFour label {
+    display: block;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: -1px;
+    background:url("../img/checkbox_01.png") no-repeat;
+}
+.checkboxFour label.checked{
+    display: block;
+    width: 24px;
+    height: 20px;
+    background:url("../img/checkbox.png") no-repeat;
+}
+.message_content_container{
+    width:100%;
+    text-align: center;
+    border:1px solid #E9ECF3;
+    border-top:none;
+    color:#525c6d;
+    padding-top:30px;
+}
+.message_substance textarea,.remarks_substance textarea{
+    width:80%;
+    vertical-align: top;
+    font-size: 16px;
+    color:#525c6d;
+    border:1px solid #E9ECF3;
+    padding: 10px 15px;
+    overflow-y: auto;
+}
+.message_substance textarea{
+    height:154px;
+    margin-bottom: 15px;
+}
+.remarks_substance textarea{
+    height:82px;
+}
+.close_btn_box{
+    margin: 0 auto;
+}
+.close_btn_box .sms_details_btn{
+    display: inline-block;
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background: url("../img/116X44_h.png") no-repeat;
+    margin:25px 0;
+    line-height: 44px;
+    text-decoration: none;
+ }
+.close_btn_box .sms_details_btn:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat;
+    color:#fff;
+    text-decoration: none;
+}
+ .send_success{
+     color:#F27668 !important;
+ }
+ .send_fail{
+     color:#54C1B8 !important;
+ }
+.send_again{
+    color:#F2A668 !important;
+}

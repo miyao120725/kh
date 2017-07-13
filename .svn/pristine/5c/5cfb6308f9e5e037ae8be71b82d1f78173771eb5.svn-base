@@ -1,0 +1,175 @@
+/*
+**  登录样式
+*/
+
+
+body{
+    background: #8996b3;
+}
+.content{
+    width:1280px;
+    margin:0 auto;
+}
+.content_left{
+    width:680px;
+    float: left;
+}
+.content_left img{
+    width:100%;
+    margin:80px 0 130px 0;
+}
+.content_right{
+    float: left;
+    width:560px;
+    margin-right: 40px;
+}
+.portrait img{
+    display: block;
+    margin: 80px auto 30px auto;
+}
+.form_d{
+    height:254px;
+    background: #717da0;
+    width:524px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow:0px 3px #566283;
+
+}
+.form_dtop{
+    border-bottom: 2px #959eb8 dotted;
+}
+.form_dtop,.form_dbot{
+    line-height: 127px;
+    margin-bottom: 0;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.form_dtop label,.form_dbot label{
+    padding-top: 0!important;
+    height:127px;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.form_din{
+    margin:37px 0 ;
+    position: relative;
+}
+.form_din input{
+    height:52px;
+    background:#717da0 ;
+    border:0;
+    padding:0;
+    font-size: 26px;
+    color: #ffffff;
+    box-shadow: none;
+    padding-left: 14px;
+}
+.form_mi{
+    text-align: right;
+    line-height: 44px;
+    padding-right: 50px!important;
+    margin-bottom: 20px;
+}
+.form_mi a{
+    font-size: 22px;
+    color: #ffffff;
+}
+.form_btn{
+    width:223px;
+    height:60px;
+    margin: 0 auto!important;
+    display: block;
+    box-shadow: 0 2px #77829b;
+    font-size: 30px;
+    color: #6d798d;
+    font-weight: bold;
+    border-radius: 6px;
+}
+/*
+*  提示框
+*/
+.warning{
+    position: absolute;
+    top:85%;
+    left:30%;
+    padding:10px;
+    width:150px;
+    border-radius: 5px;
+    box-shadow: 0 2px #626c8b;
+    background: #ffffff;
+    line-height: 20px;
+    z-index: 999;
+}
+.warning_arrow{
+    position: relative;
+    margin-left: 20%;
+}
+.warning_arrow i{
+    position: absolute;
+    top:-17px;
+    color: #ffffff;
+}
+.world{
+    color: #f6cba9;
+}
+.warning_tu{
+    background:#717da0 ;
+    border: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.warning_red{
+    color: #f27668;
+}
+.warning_blue{
+    color: #54c1b8;
+}
+/*
+*   注册样式
+*/
+.registered{
+    width:524px;
+    margin: 132px auto 150px 36px;
+    border-radius: 20px;
+    background:#717da0 ;
+}
+.registered form{
+    padding:68px 40px 55px;
+}
+.registered_d{
+    line-height: 50px;
+}
+.registered_din{
+    padding-left: 0;
+}
+.registered_d label{
+    padding:0!important;
+    color: #ffffff;
+    font-size:24px;
+}
+.registered_d input{
+    height:50px;
+    background: #717da0;
+    font-size: 22px;
+    color: #ffffff;
+}
+.registered_btn{
+    height: 60px;
+    width:156px;
+    color: #6d798d;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 2px #626c8b;
+}
+.form-group_btn{
+    display: table;
+    margin:20px auto 0 auto;
+
+}
+.btn_lef{
+    margin-right: 50px;
+
+}

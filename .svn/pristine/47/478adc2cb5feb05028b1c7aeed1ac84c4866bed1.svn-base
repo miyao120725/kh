@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wx</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/Normalize.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="js/framework.plugins.js"></script>-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+<style>
+    .form-control::-webkit-input-placeholder {
+        color:#ffffff;
+    }
+
+    　　.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:#ffffff;
+    }
+
+    　　.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#ffffff;
+    }
+
+    　　.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#ffffff;
+    }
+</style>
+<body>
+<div class="content">
+    <div class="content_left">
+        <img src="img/login_images/96512.png">
+    </div>
+    <div class="content_right">
+        <div class="portrait"><img src="img/login_images/头像.png"> </div>
+        <div class="login_from">
+            <form action="#" method="" class="form-horizontal" role="form">
+                <div class="form_d">
+                    <div class="form-group form_dtop">
+                        <label for="inputEmail3" class="col-sm-2 control-label"><img src="img/login_images/用户名.png"></label>
+                        <div class="col-sm-10 form_din input-group">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group form_dbot">
+                        <label for="inputPassword3" class="col-sm-2 control-label"><img src="img/login_images/密码.png"> </label>
+                        <div class="col-sm-10 form_din input-group">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            <span class="input-group-addon warning_tu"><i class="glyphicon glyphicon-remove warning_red"></i></span>
+                            <!--<span class="input-group-addon warning_tu"><i class="glyphicon glyphicon-ok warning_blue"></i></span>-->
+                            <div class="warning">
+                                <div class="warning_arrow">
+                                    <i class="glyphicon glyphicon-arrow-up"></i>
+                                </div>
+                                <div class="world">密码或账户错误！</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="form_mi"><a href="#">密码修改？</a></p>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-default form_btn">登录</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="content_right" style="display: none">
+        <div class="registered">
+            <form action="#" method="" class="form-horizontal" role="form">
+                <div class="form-group registered_d">
+                    <label class="col-sm-4 control-label">用户账号：</label>
+                    <div class="col-sm-8 registered_din">
+                        <input type="email" class="form-control"  placeholder="请输入用户账号">
+                    </div>
+                </div>
+                <div class="form-group registered_d">
+                    <label  class="col-sm-4 control-label">真实姓名：</label>
+                    <div class="col-sm-8 registered_din">
+                        <input type="text" class="form-control"  placeholder="请输入姓名">
+                    </div>
+                </div>
+                <div class="form-group registered_d">
+                    <label  class="col-sm-4 control-label">原有密码：</label>
+                    <div class="col-sm-8 registered_din">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group registered_d">
+                    <label  class="col-sm-4 control-label">新密码：</label>
+                    <div class="col-sm-8 registered_din">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group registered_d">
+                    <label  class="col-sm-4 control-label">确定密码：</label>
+                    <div class="col-sm-8 registered_din">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group_btn">
+                        <button type="submit" class="btn btn-default registered_btn btn_lef">确定</button>
+                        <button type="submit" class="btn btn-default registered_btn">取消</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.placeholder.min.js"></script>
+<script>
+    $(function(){ $('input,textarea').placeholder(); });
+</script>
+
+</body>
+</html>

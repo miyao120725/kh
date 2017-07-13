@@ -1,0 +1,67 @@
+<style>
+    .hol_key::-webkit-input-placeholder {
+        color:#adb6c2;
+    }
+
+    　　.hol_key:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:#adb6c2;
+    }
+
+    　　.hol_key::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#adb6c2;
+    }
+
+    　　.hol_key:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#adb6c2;
+    }
+</style>
+<div class="container-fluid records_zjq">
+    <div class="table-responsive records_d">
+        <table class="table table-bordered records_table">
+            <thead>
+            <tr>
+                <th>通话流水号</th>
+                <th>通话时间</th>
+                <th>通话号码</th>
+                <th>通话时长</th>
+                <th>分类</th>
+                <th>诉求大类</th>
+                <th>诉求小类</th>
+                <th>客户姓名</th>
+                <th>客服工号</th>
+                <th>客服班组</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>201615612f2</td>
+                <td>2016/04/08<span>09:00</span></td>
+                <td>13694856254</td>
+                <td>00:20:30</td>
+                <td>呼入</td>
+                <td>大类一</td>
+                <td>小类一</td>
+                <td>周周</td>
+                <td>客服01</td>
+                <td>客服班组1</td>
+            </tr>
+            </tbody>
+        </table>
+        <p class="records_pone">录音：<img class="records_pone_i" src="img/login_images/喇叭-拷贝.png">时长：<span class="records_pone_is">00:03:58</span></p>
+        <p class="records_ptwo records_pone">备注信息：<span class="records_ptwo_s">××先生/女士打电话投诉融资业务乱扣费，多扣除人民币1000元</span></p>
+        <div class="records_foot_zjq">
+            <div class="records_foot_d">
+                <a href="CallQuery.html" class="btn records_foot_btn">关闭</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+<script>
+    $(document).ready(function(){
+        Title(".CallQuery-title","通话记录详情");
+        var a = $(".records_foot_btn"),d = ".CallQuery";
+        Jump(a,d);
+    });
+    $(function(){ $('input, textarea').placeholder(); });
+</script>

@@ -1,0 +1,178 @@
+<div class="CallQuery-box">
+    <div class="query-form">
+        <form action="#" class="clear">
+            <ul class="iptgroup query-form-ul lf">
+                <li class="lf record_select">
+                    <label for="">客户等级：</label>
+                    <select name="" id="">
+                        <option value="">VVIP</option>
+                        <option value="">普通客户</option>
+                    </select>
+                </li>
+                <li class="lf record_select">
+                    <label for="">客户类型：</label>
+                    <select name="" id="">
+                        <option value="">系统客户</option>
+                        <option value="">散户</option>
+                    </select>
+                </li>
+                <li class="lf record_select">
+                    <label for="">客户类别：</label>
+                    <select name="" id="">
+                        <option value="">个人客户</option>
+                        <option value="">企业客户</option>
+                    </select>
+                </li>
+                <li class="lf record_select">
+                    <label for="">状态：</label>
+                    <select name="" id="">
+                        <option value="">未分配</option>
+                        <option value="">未分配</option>
+                        <option value="">未分配</option>
+                        <option value="">未分配</option>
+                    </select>
+                </li>
+                <li class="lf return_ipt">
+                    <span class="search_icon"></span>
+                    <input type="text" placeholder="客户信息模糊查询，如姓名、身份证、电话">
+                </li>
+            </ul>
+            <button type="button" class="rt ReturnTask-btn">查询</button>
+        </form>
+    </div>
+    <div class="CallQuery-table">
+        <div class="table-responsive">
+            <table class="table return_box_tab">
+                <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>客户姓名</th>
+                    <th>客户等级</th>
+                    <th>客户类型</th>
+                    <th>客户类别</th>
+                    <th>联系电话</th>
+                    <th>回访受理人</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>王丽</td>
+                        <td>普通客户</td>
+                        <td>系统客户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>张永军</td>
+                        <td>VVIP</td>
+                        <td>系统客户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>李和平</td>
+                        <td>普通客户</td>
+                        <td>系统客户</td>
+                        <td>企业客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>曾勇</td>
+                        <td>普通客户</td>
+                        <td>散户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>江明</td>
+                        <td>VVIP</td>
+                        <td>系统客户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>刘雯</td>
+                        <td>普通客户</td>
+                        <td>系统客户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>07</td>
+                        <td>张佳</td>
+                        <td>VVIP</td>
+                        <td>散户</td>
+                        <td>个人客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td>彭丽</td>
+                        <td>VVIP</td>
+                        <td>系统客户</td>
+                        <td>企业客户</td>
+                        <td>13345932255</td>
+                        <td>某某某</td>
+                        <td>待回复</td>
+                        <td><a href="javascript:;" class="return_dial">拨打</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clear">
+            <nav class="rt page-pd">
+                <ul class="pagination">
+                    <li class="page"><a href="javascript:;">&lt;上一页</a>
+                    <li ><a href="javascript:;">1 <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="javascript:;">2<span class="sr-only">(current)</span></a>
+                    <li><a href="javascript:;">...<span class="sr-only">(current)</span></a>
+                    <li><a href="javascript:;">4 <span class="sr-only">(current)</span></a>
+                    <li class="page"><a href="javascript:;">下一页&gt;</a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        Title(".ReturnTask-title","回访任务");
+        var a = $(".record_dial"),d = ".ReturnTask";
+        Jump(a,d);
+    });
+    $(function(){
+        $('.doubledate').kuiDate({
+            className:'doubledate',
+            isDisabled: "0"
+        });
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

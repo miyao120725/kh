@@ -1,0 +1,100 @@
+/*
+*   通话记录
+*/
+p{
+    margin:0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.records_top{
+    line-height: 50px;
+    background: #54c1b8;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+.records_d{
+    padding:20px 15px;
+    background: #FFFFFF;
+}
+.records_table{
+    margin-bottom: 0!important;
+}
+.records_table thead{
+    background: #f4f7fc;
+}
+.records_table thead th{
+    font-size: 16px;
+    line-height: 44px!important;
+    color: #525c6d;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 8px!important;
+    border:1px solid #e9ecf3!important;
+}
+.records_table tbody{
+    background: #ffffff;
+}
+.records_table tbody td{
+    font-size: 14px;
+    color: #6d798d;
+    text-align: center;
+    line-height: 44px!important;
+    border:1px solid #e9ecf3!important;
+}
+.records_pone{
+    border-bottom: 1px solid #e9ecf3;
+    border-left: 1px solid #e9ecf3;
+    border-right: 1px solid #e9ecf3;
+    line-height:40px;
+    padding-left: 28px;
+    color: #525c6d;
+    font-size: 15px;
+}
+.records_pone_i{
+    margin-right: 40px;
+    margin-left: 5px;
+}
+.records_pone_is{
+    font-size: 14px;
+    color: #6d798d;
+}
+.records_ptwo_s{
+    color: #f27668;
+    font-size: 14px;
+}
+.records_foot_zjq{
+    border-bottom: 1px solid #e9ecf3;
+    border-left: 1px solid #e9ecf3;
+    border-right: 1px solid #e9ecf3;
+    min-height:200px;
+    display: block;
+}
+.records_foot_d{
+    text-align: center;
+}
+.records_foot_btn,.records_yu{
+    margin-top:104px;
+    height:44px;
+    width:116px;
+    padding:0;
+    background: url("../img/116X44_h.png") no-repeat;
+    line-height: 44px;
+    color: #fff;
+    font-size: 18px;
+}
+.records_foot_btn:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat!important;
+    color: #fff!important;
+}
+.records_yu:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat!important;
+    color: #fff!important;
+}
+.records_yu{
+    margin: 50px;
+}

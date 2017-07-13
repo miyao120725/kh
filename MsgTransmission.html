@@ -1,0 +1,169 @@
+<div class="CallQuery-box">
+    <div class="query-form">
+        <form class="clear">
+            <ul class="iptgroup query-form-ul lf">
+                <li class="lf">
+                    <label for="">电话号码：</label>
+                    <input type="tel" placeholder="13656311120">
+                </li>
+                <li class="lf timeSlot">
+                    <label for="">发送时段：</label>
+                    <input type="text" placeholder="2016-06-07" readonly="readonly" class="doubledate ipticon">
+                </li>
+                <li class="lf to">
+                    <label for="">至</label>
+                    <input type="text" placeholder="2016-07-07" readonly="readonly" class="doubledate ipticon">
+                </li>
+                <li class="lf record_select">
+                    <label for="">短信类型：</label>
+                    <select name="" id="">
+                        <option value="">全部</option>
+                        <option value="">活动推送</option>
+                        <option value="">购车优惠</option>
+                        <option value="">保险优惠</option>
+                        <option value="">保险到期提醒</option>
+                    </select>
+                </li>
+                <li class="lf record_select">
+                    <label for="">发送成功：</label>
+                    <select name="" id="" >
+                        <option value="">全部</option>
+                        <option value="">发送成功</option>
+                        <option value="">部分成功</option>
+                        <option value="">发送失败</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="query-div clear">
+                <button type="button" class="rt  polling">查询</button>
+                <a href="short_message.html" class="rt added_sends">新增短信发送</a>
+            </div>
+        </form>
+    </div>
+    <div class="CallQuery-table">
+        <div class="table-responsive">
+            <table class="table message_send_table">
+                <thead>
+                    <tr>
+                        <th>短信流水号</th>
+                        <th>发送时间</th>
+                        <th>发送人数</th>
+                        <th>电话号码</th>
+                        <th>短信类型</th>
+                        <th>客服工号</th>
+                        <th>是否成功</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>1</td>
+                        <td>13345962255</td>
+                        <td>购车优惠</td>
+                        <td>客服001</td>
+                        <td class="send_success">发送成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>2</td>
+                        <td>13345962255,13345962255</td>
+                        <td>活动推送</td>
+                        <td>客服002</td>
+                        <td class="partial_success">部分成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>7</td>
+                        <td>13345962255,13345962255</td>
+                        <td>保险优惠</td>
+                        <td>客服003</td>
+                        <td class="send_success">发送成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>2</td>
+                        <td>13345962255,13345962255</td>
+                        <td>保险到期提醒</td>
+                        <td>客服004</td>
+                        <td class="send_success">发送成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>1</td>
+                        <td>13345962255</td>
+                        <td>保险优惠</td>
+                        <td>客服005</td>
+                        <td class="send_success">发送成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>9</td>
+                        <td>13345962255,13345962255</td>
+                        <td>保险优惠</td>
+                        <td>客服006</td>
+                        <td class="partial_success">部分成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>1</td>
+                        <td>13345962255</td>
+                        <td>保险优惠</td>
+                        <td>客服007</td>
+                        <td class="partial_success">部分成功</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>20160613005</td>
+                        <td>2016-06-13 17:19:07</td>
+                        <td>2</td>
+                        <td>13345962255,13345962255</td>
+                        <td>保险优惠</td>
+                        <td>客服008</td>
+                        <td class="send_fail">发送失败</td>
+                        <td><a href="sms_details.html" class="details_msg">详情</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="clear">
+        <nav class="rt page-pd">
+            <ul class="pagination">
+                <li class="page"><a href="#">&lt;上一页</a></li>
+                <li ><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">2<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">...<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                <li class="page"><a href="#">下一页&gt;</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        Title(".MsgTransmission-title","短信发送列表");
+        var a = $(".details_msg,.added_sends"),d = ".MsgTransmission";
+        Jump(a,d);
+    });
+    $(function(){//日历控件
+        $('.doubledate').kuiDate({
+            className:'doubledate',
+            isDisabled: "0"
+        });
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

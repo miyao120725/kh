@@ -1,0 +1,123 @@
+/*
+*   知识库详情样式
+*/
+.knowledge{
+    background: #FFFFFF;
+}
+.knowledge_h{
+    line-height: 50px;
+    background: #9ec154;
+    color: #ffffff;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.information_content_ku{
+    padding-top:24px;
+    width:83.33%;
+    position: relative;
+    margin: 0 auto;
+}
+.information_div_one{
+    display: table;
+    width:100%;
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+.input-group_gai{
+    font-size: 16px;
+    color: #525c6d;
+}
+.information_table_done{
+    display: table-cell;
+}
+.information_form_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    color: #525c6d;
+}
+.information_word{
+    font-size: 16px;
+}
+.information_input_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    padding: 6px;
+    color: #525c6d;
+}
+.dis_table,.information_div_btn{
+    display: table;
+}
+.dis_table_cell1{
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dis_table_cell2{
+    display: table-cell;
+    width: 100%;
+}
+.dis_flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex_l{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.information_text{
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    min-height:204px;
+    padding: 10px;
+}
+.information_margin{
+    margin-bottom: 15px;
+}
+.detail_label{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    color: #bac2bc;
+    border-radius: 4px;
+}
+.dis_label{
+    line-height: 44px;
+}
+.btn-width{
+    padding: 10px 30px;
+    margin: 0 20px;
+    color: #ffffff;
+}
+.btn_close{
+    background: #919fbd;
+}
+.btn-center{
+    margin: 30px auto;
+}
+.font_there{
+    font-style: normal;
+    letter-spacing: 16.5px;
+}
+.font_two{
+    font-style: normal;
+    letter-spacing: 49px;
+}
+/*
+*   失效样式
+*/
+.knowledge_failure{
+    position: absolute;
+    top:60px;
+    left:150px;
+}
+.failure span,.failure input,.failure a,.failure textarea,.failure div{
+    color: #bac2cb!important;
+}

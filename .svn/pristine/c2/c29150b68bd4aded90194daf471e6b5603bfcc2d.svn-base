@@ -1,0 +1,115 @@
+<div class="sms_details_box">
+    <div class="clear sms_details_btn_box">
+        <ul class="rt">
+            <li class="lf whether_successful">是否成功：
+                <select name="" id="">
+                    <option value="">全部</option>
+                    <option value="">全部</option>
+                    <option value="">全部</option>
+                </select>
+            </li>
+            <li class="lf inquiry" ><button type="button">查询</button></li>
+            <li class="lf bulk_retransmission"><button type="button">批量重发</button></li>
+        </ul>
+    </div>
+    <div class="table-responsive responsive_tab_box">
+        <table class="table responsive_tab">
+            <thead>
+                <tr>
+                    <th>
+                        <div class="input_box">
+                            <div class="checkboxFour">
+                                <input name="need_inv" type="checkbox" style="height:20px;width:20px;"id="serial_number" class="radioclass">
+                                <label for="serial_number"></label>
+                            </div>
+                        </div>
+                    </th>
+                    <th>序号</th>
+                    <th>短信流水号</th>
+                    <th>发送时间</th>
+                    <th>电话号码</th>
+                    <th>短信类型</th>
+                    <th>是否成功</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="input_box">
+                            <div class="checkboxFour">
+                                <input name="need_inv" type="checkbox" style="height:20px;width:20px;"id="serial_number_one" class="radioclass">
+                                <label for="serial_number_one"></label>
+                            </div>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td>20160613005</td>
+                    <td>2016-06-13 17:19:07</td>
+                    <td>13345932255</td>
+                    <td>购车优惠</td>
+                    <td class="send_success">发送成功</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="input_box">
+                            <div class="checkboxFour">
+                                <input name="need_inv" type="checkbox" style="height:20px;width:20px;"id="serial_number_two" class="radioclass">
+                                <label for="serial_number_two" class="checked"></label>
+                            </div>
+                        </div>
+                    </td>
+                    <td>2</td>
+                    <td>20160613005</td>
+                    <td>2016-06-13 17:19:07</td>
+                    <td>13345932255</td>
+                    <td>活动推送</td>
+                    <td class="send_fail">发送失败</td>
+                    <td><a href="javascript:;" class="send_again">重发</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="input_box">
+                            <div class="checkboxFour">
+                                <input name="need_inv" type="checkbox" style="height:20px;width:20px;"id="serial_number_three" class="radioclass">
+                                <label for="serial_number_three"></label>
+                            </div>
+                        </div>
+                    </td>
+                    <td>3</td>
+                    <td>20160613005</td>
+                    <td>2016-06-13 17:19:07</td>
+                    <td>13345932255</td>
+                    <td>保险优惠</td>
+                    <td class="send_success">发送成功</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="message_content_container">
+            <div class="message_substance">
+                短信内容：<textarea name="" id="">全部活动已经展开，快来看看吧！</textarea>
+            </div>
+            <div class="remarks_substance">
+                备注内容：<textarea name="" id="">此短信所发客户为VVIP。</textarea>
+            </div>
+            <div class="close_btn_box">
+                <a href="MsgTransmission.html" class="sms_details_btn">关闭</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('.checkboxFour label').click(function(){
+        $(this).toggleClass("checked");
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        Title(".MsgTransmission-title","短信发送详情");
+        var a = $(".sms_details_btn"),d = ".MsgTransmission";
+        Jump(a,d);
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

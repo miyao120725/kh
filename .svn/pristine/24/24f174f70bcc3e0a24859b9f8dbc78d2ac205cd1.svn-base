@@ -1,0 +1,103 @@
+/*
+*  通话记录修改样式
+*/
+.records_twod{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecf3;
+    border-left: 1px solid #e9ecf3;
+    border-right: 1px solid #e9ecf3;
+    padding-left: 28px;
+    color: #525c6d;
+    font-size: 15px;
+}
+.records_threed{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.records_three_flex{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.records_textarea{
+    min-height:100px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    padding: 6px;
+    color: #525c6d;
+}
+.dis_table{
+    display: table;
+}
+.dis_table_cell1{
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dis_table_cell2{
+    display: table-cell;
+    width: 100%;
+}
+.records_threes{
+    padding:0 15px;
+}
+.records_threes button{
+padding: 10px 30px;
+    background:url("../img/96X45.png") no-repeat;
+    color: #ffffff;
+    font-size: 18px;
+    overflow: hidden;
+}
+.records_threes button:hover{
+    background:url("../img/96X45_hover.png") no-repeat;
+}
+button:hover{
+    color: #ffffff!important;
+}
+.dis_table_ma{
+    margin: auto;
+    margin-top:40px;
+}
+.records_footx_btn{
+    width:116px;
+    height:44px;
+    padding:0;
+}
+.btn_color_b{
+    background: #5acdc3;
+    margin-right:40px;
+}
+.btn_color_b,.btn_color_z{
+    width:116px;
+    height:44px;
+    padding:0;
+    line-height: 44px;
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn_color_b{
+    background: url("../img/116X14V.png") no-repeat;
+}
+.btn_color_b:hover{
+    background: url("../img/116X14V_hover.png") no-repeat;
+    color:#fff;
+}
+.btn_color_z{
+    background: url("../img/116X44_h.png") no-repeat;
+}
+.btn_color_z:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat;
+    color:#fff;
+}
+
+.records_select{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}

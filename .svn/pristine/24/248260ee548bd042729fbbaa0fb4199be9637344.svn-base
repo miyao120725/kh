@@ -1,0 +1,197 @@
+    <div class="CallQuery-box">
+        <div class="query-form">
+            <form action="#" class="clear">
+                 <ul class="iptgroup query-form-ul lf">
+                     <li class="lf">
+                         <label for="">呼入时段：</label>
+                         <input type="text" placeholder="2016-06-07" readonly="readonly" class="doubledate ipticon">
+                     </li>
+                     <li class="lf to">
+                         <label for="">至</label>
+                         <input type="text" placeholder="2016-07-07" readonly="readonly" class="doubledate ipticon">
+                     </li>
+                      <li class="lf record_select">
+                            <label for="">状态：</label>
+                            <select name="" id="">
+                                <option value="">未分配</option>
+                                <option value="">未分配</option>
+                                <option value="">未分配</option>
+                                <option value="">未分配</option>
+                            </select>
+                      </li>
+                      <li class="lf record_select">
+                            <label for="">客户等级：</label>
+                            <select name="" id="">
+                                <option value="">VVIP</option>
+                                <option value="">VVIP</option>
+                                <option value="">VVIP</option>
+                                <option value="">VVIP</option>
+                            </select>
+                      </li>
+                      <li class="lf record_select">
+                            <label for="">客户类型：</label>
+                            <select name="" id="">
+                                <option value="">系统客户</option>
+                                <option value="">系统客户</option>
+                                <option value="">系统客户</option>
+                                <option value="">系统客户</option>
+                            </select>
+                      </li>
+                      <li class="lf record_select">
+                            <label for="">客户类别：</label>
+                            <select name="" id="">
+                                <option value="">个人客户</option>
+                                <option value="">个人客户</option>
+                                <option value="">个人客户</option>
+                                <option value="">个人客户</option>
+                            </select>
+                      </li>
+                 </ul>
+                <button type="button" class="rt CallLoss-btn">查询</button>
+            </form>
+        </div>
+        <div class="CallQuery-table">
+            <div class="table-responsive">
+                <table class="table record_box_tab">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>短信流水号</th>
+                            <th>呼损时间</th>
+                            <th>电话号码</th>
+                            <th>客户姓名</th>
+                            <th>客户等级</th>
+                            <th>客户类型</th>
+                            <th>客户类别</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>王丽</td>
+                            <td>普通客户</td>
+                            <td>系统客户</td>
+                            <td>个人客户</td>
+                            <td>待回复</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>张勇军</td>
+                            <td>VVIP</td>
+                            <td>系统客户</td>
+                            <td>个人客户</td>
+                            <td>待回复</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>李和平</td>
+                            <td>普通客户</td>
+                            <td>系统客户</td>
+                            <td>企业客户</td>
+                            <td>待回复</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>曾勇</td>
+                            <td>普通客户</td>
+                            <td>散户</td>
+                            <td>个人客户</td>
+                            <td>待回复</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>江明</td>
+                            <td>VVIP</td>
+                            <td>系统客户</td>
+                            <td>个人客户</td>
+                            <td>待回复</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>刘雯</td>
+                            <td>普通客户</td>
+                            <td>系统客户</td>
+                            <td>个人客户</td>
+                            <td>未接通</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>07</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>张佳</td>
+                            <td>VVIP</td>
+                            <td>散户</td>
+                            <td>个人客户</td>
+                            <td>未接通</td>
+                            <td><a href="javascript:;" class="dial">拨打</a></td>
+                        </tr>
+                        <tr>
+                            <td>08</td>
+                            <td>S160927001</td>
+                            <td>2016-06-13 17:19:07</td>
+                            <td>13545932255</td>
+                            <td>彭丽</td>
+                            <td>VIP</td>
+                            <td>系统客户</td>
+                            <td>企业客户</td>
+                            <td>已回复</td>
+                            <td><a href="javascript:;" class="dial"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clear">
+                <nav class="rt page-pd">
+                    <ul class="pagination">
+                        <li class="page"><a href="javascript:;">&lt;上一页</a>
+                        <li ><a href="javascript:;">1 <span class="sr-only">(current)</span></a>
+                        <li class="active"><a href="javascript:;">2<span class="sr-only">(current)</span></a>
+                        <li><a href="javascript:;">...<span class="sr-only">(current)</span></a>
+                        <li><a href="javascript:;">4 <span class="sr-only">(current)</span></a>
+                        <li class="page"><a href="javascript:;">下一页&gt;</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+        Title(".CallLoss-title","呼损记录");
+        var a = $(".dial"),d = ".CallLoss";
+        Jump(a,d);
+    });
+    $(function(){
+        $('.doubledate').kuiDate({
+            className:'doubledate',
+            isDisabled: "0"
+        });
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

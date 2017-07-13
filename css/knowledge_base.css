@@ -1,0 +1,194 @@
+/*
+*  知识库的样式
+*/
+.hol_key::-webkit-input-placeholder {
+    color:#adb6c2;
+}
+
+　　.hol_key:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#adb6c2;
+}
+
+　　.hol_key::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#adb6c2;
+}
+
+　　.hol_key:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#adb6c2;
+}
+body{
+    background: #f0f4fa;
+}
+.knowledge_zjq{
+    padding: 0;
+    background: #ffffff;
+}
+.knowledge_top{
+    line-height: 50px;
+    background: #9ec154;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+.knowledge_content{
+    height:670px;
+}
+.knowledge_conleft{
+    height:670px;
+    padding: 0;
+    background: #9ec154;
+}
+.knowledge_conleft li a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.knowledge_conleft li a:hover{
+    background: #8ead4b;
+}
+.knowledge_lei_active{
+    background: #8ead4b;
+}
+.knowledge_conright{
+    padding-left: 0;
+}
+.knowledge_sos{
+    padding:20px 40px;
+
+}
+
+.sos_left{
+    height: 44px;
+    width:50%;
+}
+.sos_left form{
+    display: table;
+}
+
+.sos_left form button{
+    padding: 12px 10px 12px 20px;
+    border:0;
+    background: #ffffff;
+    border-radius: 6px;
+}
+.input-group-addon button:hover{
+    color: #adb6c2!important;
+}
+.sos_left form button i{
+    font-size: 15px;
+}
+.sos_left span{
+    padding:0;
+    background: #ffffff;
+    color:#adb6c2;
+}
+.sos_left input{
+    height: 44px;
+    font-size: 16px;
+    color: #adb6c2;
+}
+.collection_me{
+    line-height: 44px;
+}
+.collection_me a{
+    cursor: pointer;
+    color: #8ead4b;
+    font-size: 18px;
+}
+.collection_me img{
+    margin-top: -6px;
+}
+.border_zjq{
+    border:1px solid #e9ecf3;
+    height:494px;
+    overflow-y: hidden;
+}
+.knowledge_you p{
+    color: #6d798d!important;
+}
+.knowledge_si{
+    color: #f27668;
+}
+.knowledge_sip_active p{
+    color: #999999!important;
+}
+.knowledge_basel{
+    cursor: pointer;
+}
+.knowledge_base{
+    padding:15px 40px;
+    background: #f4f7fc;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.knowledge_baser{
+    margin-left: 10px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    cursor: pointer;
+}
+.knowledge_baser a{
+    text-decoration: none;
+}
+.knowledge_baser p{
+    white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+/*.knowledge_diejia{*/
+    /*margin: 12px auto;*/
+/*}*/
+/*.knowledge_diejia li a{*/
+    /*color: #9ec154;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.knowledge_diejia li a i{*/
+    /*font-weight: normal;*/
+/*}*/
+/*.knowledge_diejia .active a{*/
+    /*color: #fff;*/
+    /*cursor: default;*/
+    /*background-color: #9ec154!important;*/
+    /*border-color: #9ec154!important;*/
+/*}*/
+/*.disabled a{*/
+    /*color: #ced3e0!important;*/
+/*}*/
+
+.knowledge_zyl>li>a{
+    width:56px;
+    height:44px !important;
+    line-height: 44px !important;
+    text-align: center;
+    padding:0;
+    color:#8ead4b;
+}
+.knowledge_zyl>li>a:hover,.knowledge_zyl>.active>a:hover{
+    color:#fff;
+    background: #8ead4b;
+}
+.knowledge_zyl>.active>a:hover{
+    border:1px solid #8ead4b;
+}
+.knowledge_zyl>.active>a{
+    color:#fff;
+    background: #8ead4b;
+    border:1px solid #8ead4b;
+}
+.knowledge_page_zyl>a,.next_page_zyl>a{
+    width:90px !important;
+}

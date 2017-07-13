@@ -1,0 +1,90 @@
+<style>
+    .hol_key::-webkit-input-placeholder {
+        color:#adb6c2;
+    }
+
+    　　.hol_key:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:#adb6c2;
+    }
+
+    　　.hol_key::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#adb6c2;
+    }
+
+    　　.hol_key:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#adb6c2;
+    }
+</style>
+<body>
+<div class="container-fluid records_zjq">
+    <div class="table-responsive records_d">
+        <table class="table table-bordered records_table">
+            <thead>
+            <tr>
+                <th>通话流水号</th>
+                <th>通话时间</th>
+                <th>通话号码</th>
+                <th>通话时长</th>
+                <th>分类</th>
+                <th>诉求大类</th>
+                <th>诉求小类</th>
+                <th>客户姓名</th>
+                <th>客服工号</th>
+                <th>客服班组</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>201615612f2</td>
+                <td>2016/04/08 <span>09:00</span></td>
+                <td>13694856254</td>
+                <td>00:20:30</td>
+                <td>呼入</td>
+                <td>
+                    <select class="records_select">
+                        <option>大类一</option>
+                        <option>大类一</option>
+                        <option>大类一</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="records_select">
+                        <option>小类一</option>
+                        <option>小类一</option>
+                        <option>小类一</option>
+                        <option>小类一</option>
+                    </select>
+                </td>
+                <td>周周</td>
+                <td>客服01</td>
+                <td>客服班组1</td>
+            </tr>
+            </tbody>
+        </table>
+        <p class="records_pone">录音：<img class="records_pone_i" src="img/login_images/喇叭-.png">时长：<span class="records_pone_is">00:03:58</span></p>
+        <div class="records_twod records_threed">
+            <span class="">备注信息：</span>
+            <div class="records_three_flex">
+                <div class="dis_table">
+                    <textarea type="text" class="records_textarea dis_table_cell2"></textarea>
+                    <span class="dis_table_cell1 records_threes"><button type="button" class="btn ">清空</button></span>
+                </div>
+            </div>
+        </div>
+        <div class="records_foot_zjq records_foot_d">
+            <div class="dis_table dis_table_ma">
+                <a href="CallQuery.html" class="btn records_footx_btn btn_color_b">保存</a>
+                <a href="CallQuery.html" class="btn records_footx_btn btn_color_z">关闭</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+<script>
+    $(document).ready(function(){
+        Title(".CallQuery-title","通话录音");
+        var a = $(".btn_color_z"),d = ".CallQuery";
+        Jump(a,d);
+    });
+    $(function(){ $('input, textarea').placeholder(); });
+</script>

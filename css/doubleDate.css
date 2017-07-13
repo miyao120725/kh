@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+.kui_d_pane{position:absolute;width:187px;margin:0;z-index:9999;}
+.kui_data_content_pane{border:1px solid #ddd;width:520px;overflow:hidden;font-size:12px;position:absolute;left:0;z-index:100;top:0;background:#fff;box-shadow: 0px 9px 15px 2px #ddd;}
+.kui_data_content_pane a:link,.kui_data_content_pane a:visited{color:#525c6d;text-decoration:none;font-weight:900;}
+.kui_data_content_pane a:hover{color:#fff;}
+.kui_date_reset{border-top:1px #2092D6 dotted;clear:both;margin:3px;padding:3px;text-align:right;}
+.kui_date_reset span{cursor:pointer;background:#54C1B8;color:#FFF;padding:2px 5px;margin-left:3px;}
+.kui_prev_next_month{height:26px;line-height:26px;font-weight:900;text-align:center;margin-top:10px;padding-top:1px;}
+.kui_prev_m,.kui_today{float:left;margin-left:10px;}
+.kui_prev_m{background:url(../img/date_prev.png) 0 0 no-repeat;height:21px;width:21px;}
+.kui_today,.kui_tomorrow{width:148px;text-align:center;color:#525c6d;cursor:default;font-size: 16px;}
+.kui_tomorrow{float:right;margin-right:30px;}
+.kui_next_m{float:right;margin-right:6px;background:url(../img/date_next.png) 0 0 no-repeat;height:21px;width:21px;}
+.kui_data_tab,.kui_date_info{width:238px;margin:5px auto;zoom:1;overflow:hidden;background:#f4f7fc;}
+.kui_data_tab{background: none!important;}
+dl.kui_data_tab dt{font-weight:900;}
+.kui_data_tab dt,.kui_date_info dt{padding: 0px; line-height:24px;height:24px;text-align:center;border-bottom:0px solid #B2C4D2;border-right:none;cursor:default;font-weight:400;font-size:14px;width:34px;float:left;text-align:center;color: #525c6d}
+.kui_date_info dt{border-left:0px solid #B2C4D2;border-bottom:0px solid #B2C4D2;color:#525c6d;border-radius:3px;}
+.kui_date_info .kui_td_kong{background:#fff;cursor:default;}
+.kui_time_pane{background:#54C1B8;line-height:22px;height:22px;overflow:hidden;margin-bottom:4px;padding-bottom:1px;}
+.kui_clean_btn{float:left;padding-left:6px;}
+.kui_close_btn{float:right;padding-right:6px;}
+.kui_time{float:left;padding-left:8px;}
+.kui_time input{width:17px;padding:1px;line-height:12px;height:12px;margin-right:2px;margin-top:2px;_margin-top:1px;}
+.kui_date_info .td_select{background-color: #54C1B8;color: #fff;}
+.kui_date_info .td_hover{color:#fff;cursor:pointer;background-color: #54C1B8}
+.kui_txt_hide{display:none;}
+dl.kui_date_info .kui_td_hui{background:#fff;cursor:default;color:#DBDBDB;font-weight:400;}
+a img{border:0;}
+#left_table,#right_table{float:left;width:259px;height:190px;overflow:hidden;}

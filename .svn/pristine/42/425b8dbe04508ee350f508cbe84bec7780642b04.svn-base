@@ -1,0 +1,224 @@
+/*
+客户业务信息
+*/
+.msg-title{
+    font-size: 20px;
+    color: #fff;
+    background-color: #5FB4D6;
+    line-height: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0;
+}
+.basicInformation,.businessInformation{
+    background-color: #F4F7FC;
+    color: #6d798d;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 265px;
+    background-color: #fff;
+}
+.basic-title-box .basic-title,.basicInformation{
+    float: left;
+    width: 240px;
+}
+.basic-title-box .business-title,.businessInformation{
+    float: right;
+    width: calc(100% - (240px + 20px));
+}
+.businessInformation .slider{
+    /*padding: 14px 14px 12px 14px;*/
+    /*height: 190px;*/
+}
+
+.slide_padding{
+    padding: 20px 10px;
+}
+.slide_in{
+    border: 1px solid #EAEDF4;
+}
+.msg-content{
+    padding: 24px 40px 0px 40px;
+}
+.msg-content li{
+    color: #6d798d;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.msg-btn{
+    margin: 24px 0px 34px 0px;
+}
+.msg-btn button{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #fff;
+    background: url("../img/btn_150X38.png") no-repeat;
+}
+.msg-btn button:hover{
+    background: url("../img/btn_150X38_hover.png") no-repeat;
+    color: #fff;
+}
+.text-dotted{
+    /*border-bottom: 2px dotted #6D798D;*/
+}
+.text-center-box{
+    /*column-count:2;*/
+    /*-moz-column-count:2;*/
+    /*-webkit-column-count:2;*/
+    padding: 22px;
+    height: 160px;
+    overflow-y: scroll;
+}
+.slide{
+
+    height: 100%;
+}
+.slide p.slide-title{
+    line-height: 50px;
+    text-align: center;
+    color: #525c6d;
+    font-size: 16px;
+    background-color: #F4F7FC;
+}
+.add_order{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    color:#5FB4D6;
+}
+.add_order:hover,.add_order:focus{
+    text-decoration: none;
+    color:#5FB4D6;
+    outline: none;
+}
+/*
+*   新增城际快线订单样式
+*/
+.city_order{
+    width:100%;
+}
+.title_order{
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    background: #55A1F6;
+    padding: 10px 0;
+
+}
+.order_user{
+    position: absolute;
+    top:20px;
+    left:0;
+    right:0;
+    text-align: right;
+}
+.order_user a{
+    cursor: pointer;
+    font-size:16px;
+    color: #337ab7;
+}
+.city_content{
+    min-width:800px;
+    margin: 0 auto;
+}
+.dis_table{
+    display: table;
+}
+.dis_cell{
+    display: table-cell;
+}
+.dis_cell_one{
+    display: table-cell;
+    width:1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.dis_cell_two{
+    display: table-cell;
+    width:100%;
+}
+.bi_color{
+    color: red;
+    font-size: 16px;
+}
+.city_btn{
+    margin: 20px auto;
+}
+.table_width{
+    width: 100%;
+}
+.cell_width{
+    max-width: 100px;
+}
+.cell_padding{
+    padding: 0 20px;
+    max-width: 100px;
+}
+.cell_left{
+    padding-left: 20px;
+}
+.city_btn .btn-primary{
+    margin-right: 100px;
+    background: #5FB4D6;
+    border:1px solid #5FB4D6;
+    outline: none;
+}
+.city_btn .btn-primary:active:hover{
+    background: #3EAFDB;
+    border:1px solid #3EAFDB;
+    outline: none;
+}
+.city_btn .btn-default:focus{
+    outline: none;
+}
+.btn_pad{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.modal-footer_box{
+    border:none !important;
+}
+.modal-header_box{
+    background: #5FB4D6;
+    text-align: center;
+    color:#fff;
+}
+.modal-header_box .close{
+    font-size: 30px;
+}
+.new_add_order{
+    position: absolute;
+    top:15px;
+    right:20px;
+    color:#fff;
+    font-size: 16px;
+    outline: none;
+}
+.new_add_order:focus,.new_add_order:hover{
+    color:#fff;
+    text-decoration: none;
+    outline: none;
+}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0);-webkit-border-radius:10px;border-radius:10px;}
+::-webkit-scrollbar-thumb{-webkit-border-radius:3px;border-radius:3px;background:#5FB4D6;-webkit-box-shadow:inset 0 0 6px rgba(95,180,214,0.5);}
+::-webkit-scrollbar-thumb:hover{background:#5FB4D6;}
+::-webkit-scrollbar-thumb:window-inactive {background:#5FB4D6;}
+/*汽车金融详情*/
+.auto_inance_details{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    color:#5FB4D6;
+}
+.auto_inance_details:focus,.auto_inance_details:hover{
+    color:#5FB4D6;
+    text-decoration: none;
+}

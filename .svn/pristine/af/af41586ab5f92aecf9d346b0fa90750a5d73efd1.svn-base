@@ -1,0 +1,157 @@
+<div class="container-fluid knowledge_zjq">
+    <div class="knowledge_content clear">
+        <div class="knowledge_conleft col-sm-1">
+            <ul>
+                <li><a class="knowledge_lei_active">大类一</a></li>
+                <li><a>大类二</a></li>
+                <li><a>大类三</a></li>
+                <li><a>大类四</a></li>
+                <li><a>大类五</a></li>
+                <li><a>大类六</a></li>
+                <li><a>大类七</a></li>
+                <li><a>大类一</a></li>
+                <li><a>大类二</a></li>
+                <li><a>大类三</a></li>
+                <li><a>大类四</a></li>
+                <li><a>大类五</a></li>
+                <li><a>大类六</a></li>
+                <li><a>大类七</a></li>
+                <li><a>大类一</a></li>
+                <li><a>大类二</a></li>
+                <li><a>大类三</a></li>
+                <li><a>大类四</a></li>
+                <li><a>大类五</a></li>
+                <li><a>大类六</a></li>
+                <li><a>大类七</a></li>
+            </ul>
+        </div>
+        <div class="knowledge_conright col-sm-11">
+             <div class="knowledge_sos clear">
+                 <div class="input-group lf sos_left">
+                     <form action="#" method="">
+                         <span class="input-group-addon"><button><i class="glyphicon glyphicon-search"></i></button></span>
+                         <input type="text" class="form-control hol_key" name="keywords" placeholder="关键词汇快捷搜索">
+                     </form>
+                 </div>
+                 <div class="collection_me rt">
+                     <a><img src="img/login_images/收藏.png"> 我的收藏</a>
+                 </div>
+             </div>
+            <div class="border_zjq">
+                <div class="knowledge_base">
+                    <div class="knowledge_basel"><a src="#"><img src="img/login_images/收藏.png"><span></span></a></div>
+                    <div class="knowledge_baser knowledge_you">
+                        <a href="knowledge_details.html" class="effective_you">
+                            <p>问：ETC充值何时到站？</p>
+                            <p>答：一般在1-3个工作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="knowledge_base">
+                    <div class="knowledge_basel"><a src="#"><img src="img/login_images/收藏.png"><span></span></a></div>
+                    <div class="knowledge_baser knowledge_you">
+                        <a href="knowledge_details.html" class="effective_you">
+                            <p>问：ETC充值何时到站？</p>
+                            <p>答：一般在1-3个工作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="knowledge_base">
+                    <div class="knowledge_basel">
+                        <a src="#" class="knowledge_si">
+                            <img src="img/login_images/已收藏.png"><br><span>已失效</span>
+                        </a>
+                    </div>
+                    <div class="knowledge_baser knowledge_sip_active">
+                        <a href="knowledge_details_failure.html" class="failure_si">
+                            <p>问：ETC充值何时到站？</p>
+                            <p style="">答：一般在1-3个工dfgadf作日可到个人账户。一般在1-3个工dfgadf作日可到个人账户。一般在1-3个工dfgadf作日可到个人账户。一般在1-3个工dfgadf作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="knowledge_base">
+                    <div class="knowledge_basel"><a src="#"><img src="img/login_images/收藏.png"><span></span></a></div>
+                    <div class="knowledge_baser knowledge_you">
+                        <a href="knowledge_details.html" class="effective_you">
+                            <p>问：ETC充值何时到站？</p>
+                            <p>答：一般在1-3个工作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="knowledge_base">
+                    <div class="knowledge_basel"><a src="#"><img src="img/login_images/收藏.png"><span></span></a></div>
+                    <div class="knowledge_baser knowledge_you">
+                        <a href="knowledge_details.html"  class="effective_you">
+                            <p>问：ETC充值何时到站？</p>
+                            <p>答：一般在1-3个工作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="knowledge_base">
+                    <div class="knowledge_basel"><a src="#"><img src="img/login_images/已收藏.png"><span></span></a></div>
+                    <div class="knowledge_baser knowledge_you">
+                        <a href="knowledge_details.html" class="effective_you">
+                            <p>问：ETC充值何时到站？</p>
+                            <p>答：一般在1-3个工作日可到个人账户。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear knowledge_fenye">
+                <!--<nav class="rt">-->
+                    <!--<ul class="pagination knowledge_diejia">-->
+                        <!--<li class="disabled"><a href="#"><&nbsp;上一页</a></li>-->
+                        <!--<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>-->
+                        <!--<li><a href="#">2</a></li>-->
+                        <!--<li><a href="#">...</a></li>-->
+                        <!--<li><a href="#">4</a></li>-->
+                        <!--<li><a href="#">下一页&nbsp;></a></li>-->
+                    <!--</ul>-->
+                <!--</nav>-->
+                <nav class="rt knowledge_box_zyl">
+                    <ul class="pagination knowledge_zyl">
+                        <li class="knowledge_page_zyl"><a href="#">&lt;上一页</a></li>
+                        <li ><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="#">2<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">...<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li class="next_page_zyl"><a href="#">下一页&gt;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="knowledge_paging"></div>
+</div>
+<script>
+    $(".knowledge_conleft").niceScroll({
+        styler: "fb",
+        cursorcolor: "#54c1b8",
+        cursorwidth: '0',
+        cursorborderradius: '10px',
+        background: '#ffffff',
+        spacebarenabled: false,
+        cursorborder: '',
+        zindex: '1000'
+    });
+    $('.knowledge_basel').click(function () {
+        var url="img/login_images/收藏.png",
+                url1="img/login_images/已收藏.png";
+//         var im=$(this).find('img')[0].src;
+        var im=$(this).find('img').attr('src');
+        if(url==im){
+            $(this).find('img')[0].src=url1;
+        }
+        if(url1==im){
+            $(this).find('img')[0].src=url;
+        }
+    })
+</script>
+<script>
+    $(document).ready(function(){
+        Title(".knowledge_top","知识库");
+        var a = $(".failure_si,.effective_you"),d = ".knowledgeBase";
+        Jump(a,d);
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>

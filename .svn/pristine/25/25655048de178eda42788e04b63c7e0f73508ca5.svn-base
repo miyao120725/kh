@@ -1,0 +1,98 @@
+/*
+*    历史处理记录样式
+*/
+.history_modal{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)!important;
+    -webkit-transform: translate(-50%,-50%)!important;
+    -moz-transform: translate(-50%,-50%)!important;
+    -ms-transform: translate(-50%,-50%)!important;
+    -o-transform: translate(-50%,-50%)!important;
+}
+.history_title{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.history_table_modal_content{
+    border:none;
+    border-radius: 0;
+    padding:20px 14px !important;
+}
+.history_table_modal_box{
+    width:100%;
+    border:1px solid #E9ECF3;
+    padding:0 !important;
+}
+.modal_back1{
+    background: #f27668;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.close_f{
+    color: #ffffff;
+}
+.history_table_modal>thead>tr{
+    background:#f4f7fc;
+}
+.history_table_modal th,.history_table_modal td{
+    text-align: center;
+    height:60px;
+    line-height: 60px !important;
+    border:none !important;
+}
+.history_table_modal th{
+    font-size: 16px;
+    color: #525c6d;
+}
+.history_table_modal td{
+    font-size: 14px;
+    color: #69798d;
+}
+.history_table_modal>tbody>tr:nth-of-type(odd){
+    background: #fff;
+}
+.history_table_modal tbody tr:nth-child(2n){
+    background: #F8FAFD!important;
+}
+.history_table_modal_footer{
+    border:none !important;
+    padding:0 !important;
+    padding-right: 10px !important;
+}
+.history_modal_page a{
+    color: #f27668!important;
+}
+.disabled a{
+    color: #777!important;
+}
+.history_active a{
+    background:#f27668!important;
+    color: #ffffff!important;
+    border:1px solid #f27668!important;
+}
+.history_z_zyl>li>a{
+    width:56px;
+    height:44px !important;
+    line-height: 44px !important;
+    text-align: center;
+    padding:0;
+    color:#f27668;
+}
+.history_z_zyl>li>a:hover,.history_z_zyl>.active>a:hover{
+    color:#fff;
+    background: #f27668;
+}
+.history_z_zyl>.active>a:hover{
+    border:1px solid #f27668;
+}
+.history_z_zyl>.active>a{
+    color:#fff;
+    background: #f27668;
+    border:1px solid #f27668;
+}
+.history_zpage_zyl>a,.next_page_zyl>a{
+    width:90px !important;
+}

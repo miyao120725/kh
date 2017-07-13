@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>客户基本信息</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/customer_details.css">
+</head>
+<body>
+    <div class="basic_information">
+        <div class="information_nav">
+            <ul>
+                <li class="nav_active">
+                    <a href="insurance_information.html">
+                        <img src="img/kh.png">
+                        <span>客户基本信息</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="deduction_details.html">
+                        <img src="img/Deductions.png">
+                        <span>扣款明细</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="customer.html">
+                        <img src="img/Insurance.png">
+                        <span>保险信息</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="other_imformation.html">
+                        <img src="img/Other.png">
+                        <span>其他信息</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="financial_support.html">
+                        <img src="img/financial.png">
+                        <span>财务支持</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="electric_recording.html">
+                        <img src="img/th.png">
+                        <span>电催记录</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="information_content">
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(".information_content").load("insurance_information.html");
+        $('.information_nav li').click(function(e){
+            e.preventDefault();
+            $(this).addClass("nav_active").siblings().removeClass("nav_active");
+            var activeUrl=$(this).find("a").attr("href");
+            $(".information_content").load(activeUrl);
+        });
+    </script>
+</body>
+</html>

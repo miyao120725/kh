@@ -1,0 +1,450 @@
+
+/*
+通话记录查询
+*/
+.CallQuery-box{
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.CallQuery-title,.CallLoss-title,.WorkOrder-title,.MsgTransmission-title,.ReturnTask-title{
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.MsgTransmission-title{
+    background: #f2a668;
+}
+.CallQuery-title{
+    background-color: #55C1B8;
+}
+.CallLoss-title{
+    background-color: #c1a654;
+}
+.WorkOrder-title{
+    background:#f27668;
+}
+.ReturnTask-title{
+    background:#6196C8;
+}
+.query-form{
+    padding: 20px 40px;
+}
+.query-form li label{
+    color: #525c6d;
+    font-size: 16px;
+    font-weight: 400;
+}
+.query-form li input{
+    width: 130px;
+    padding: 10px;
+    height: 44px;
+    font-size: 16px;
+    color: #525c6d;
+    border-radius: 2px;
+    border: 1px solid #eaedf4;
+}
+.query-form .ipticon{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    background: url("../img/bottom.png") no-repeat scroll 110px center transparent;
+    outline: none;
+}
+.record_select{
+    margin-left: 10px;
+}
+.record_select select{
+    /*width: 120px;*/
+    /*padding: 10px;*/
+    height: 44px;
+    font-size: 16px;
+    color: #525c6d;
+    border-radius: 2px;
+    border: 1px solid #eaedf4;
+}
+.return_ipt{
+    margin-left: 15px;
+    position: relative;
+}
+.return_ipt  input{
+    width:350px !important;
+    padding-left: 35px !important;
+}
+.search_icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/search_icon.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.timeSlot{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.to label{
+    margin-right: 10px;
+}
+.query-btn{
+    color: #fff;
+    width: 116px;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    background: url("../img/116X14V.png") no-repeat;
+}
+.query-btn:hover{
+    background: url("../img/116X14V_hover.png") no-repeat;
+}
+.CallLoss-btn{
+    color: #fff;
+    width: 116px;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    background:url("../img/brown_background.png") no-repeat;
+    outline: none;
+}
+.CallLoss-btn:hover{
+    background:url("../img/brown_background_hover.png") no-repeat;
+}
+.ReturnTask-btn{
+    color: #fff;
+    width: 116px;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    background:url("../img/ReturnTask-btn.png") no-repeat;
+    outline: none;
+}
+.ReturnTask-btn:hover{
+    background:url("../img/ReturnTask-btn_hover.png") no-repeat;
+}
+/*工单管理查询按钮*/
+.inquire_btn{
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background:url("../img/116X44_h.png") no-repeat;
+}
+.inquire_btn:hover{
+    background:url("../img/116X44_h_hover.png") no-repeat;
+}
+.newly_added_btn{
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background:url("../img/116X44_red.png") no-repeat;
+    margin-right:40px;
+}
+.newly_added_btn:hover{
+    background:url("../img/116X44_red_hover.png") no-repeat;
+    color:#fff;
+    text-decoration: none;
+}
+.newly_added_btn{
+    display: block;
+    height:44px;
+    line-height: 44px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+}
+/*短信发送按钮*/
+.polling{
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background:url("../img/116X44_h.png") no-repeat;
+    margin-left:20px;
+}
+.polling:hover{
+    background:url("../img/116X44_h_hover.png") no-repeat;
+}
+.added_sends{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    height:44px;
+    line-height: 44px;
+    border-radius: 6px;
+    width:132px;
+    font-size: 18px;
+    border:none;
+    background:url("../img/132X44.png") no-repeat;
+    margin-right:40px;
+    overflow: hidden;
+    text-align: center;
+}
+.added_sends:hover{
+    background:url("../img/132X44_hover.png") no-repeat;
+    color:#fff;
+    text-decoration: none;
+}
+.CallQuery-table{
+    padding: 20px 14px 0px 14px;
+}
+.callQuery-table{
+    border: 1px solid #E9ECF3;
+}
+.query-text-center{
+    width: 387px;
+}
+.query-text-center div{
+    text-align: left;
+    padding: 0 34px;
+    width: 100%;
+    font-size: 14px!important;
+    white-space:normal!important;
+    line-height: 20px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.operation{
+    text-align: left!important;
+}
+.operation a{
+    color: #55C1B8;
+}
+.page-pd{
+    padding: 0 14px;
+}
+.operation div{
+    width: 105px;
+    margin: 0 auto;
+}
+.page-pd li a{
+    width: 56px;
+    height: 44px;
+    text-align: center;
+    line-height: 30px;
+}
+.page-pd li.page a{
+    width: 90px;
+    color: #55C1B8;
+}
+.page-pd>ul.pagination{
+    margin: 14px 0 21px 0;
+}
+.page-pd>.pagination>.active>a, .page-pd>.pagination>.active>a:focus, .page-pd>.pagination>.active>a:hover, .page-pd>.pagination>.active>span, .page-pd>.pagination>.active>span:focus, .page-pd>.pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #55C1B8;
+    border-color: #55C1B8;
+}
+.page-pd>.pagination>li>a{
+    color: #55C1B8;
+}
+.page-pd>.pagination>li>a:focus, .page-pd>.pagination>li>a:hover, .page-pd>.pagination>li>span:focus, .page-pd>.pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #55C1B8;
+    border-color: #55C1B8;
+}
+.dial{
+    color:#c1a654;
+    font-size: 14px;
+}
+.return_dial{
+    color:#6196c8;
+    font-size: 14px;
+}
+.order_operation{
+    font-size: 14px !important;
+}
+.order_operation>a{
+    color:#f27668 !important;
+}
+.send_success{
+    font-size: 14px !important;
+    color:#54c1b8 !important;
+}
+.partial_success{
+    font-size: 14px !important;
+    color:#5fb4d6 !important;
+}
+.send_fail{
+    font-size: 14px !important;
+    color:#f27668 !important;
+}
+.details_msg{
+    font-size: 14px !important;
+    color:#f2a668 !important;
+}
+/*工单管理表格*/
+.worked_table{
+    border:1px solid #e9ecf3;
+}
+.worked_table th,.worked_table td{
+    height:60px;
+    line-height: 60px !important;
+    text-align: center;
+    font-size:16px;
+    padding:0 !important;
+
+}
+.worked_table th{
+    color:#525c6d;
+    border:none !important;
+}
+.worked_table td{
+    color:#6d798d;
+    border:none !important;
+}
+.worked_table>thead,.worked_table>tbody tr:nth-child(2n){
+    background: #f4f7fc;
+}
+/*呼损记录表格*/
+.record_box_tab{
+    width:100%;
+    border: 1px solid #E9ECF3;
+}
+.record_box_tab tbody td{
+    color: #6d798d;
+}
+.record_box_tab thead tr{
+    background-color: #F4F7FC;
+    color: #525c6d;
+}
+.record_box_tab thead th,.record_box_tab tbody td{
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle!important;
+    white-space:nowrap;
+}
+.record_box_tab tbody tr:nth-child(even){
+    background-color: #F4F7FC;
+}
+.record_box_tab th{
+    border-bottom: none!important;
+}
+.record_box_tab td{
+    border-top:none!important;
+}
+/*回访任务表格*/
+.return_box_tab{
+    width:100%;
+    border: 1px solid #E9ECF3;
+}
+.return_box_tab tbody td{
+    color: #6d798d;
+}
+.return_box_tab thead tr{
+    background-color: #F4F7FC;
+    color: #525c6d;
+}
+.return_box_tab thead th,.return_box_tab tbody td{
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle!important;
+    white-space:nowrap;
+}
+.return_box_tab tbody tr:nth-child(even){
+    background-color: #F4F7FC;
+}
+.return_box_tab th{
+    border-bottom: none!important;
+}
+.return_box_tab td{
+    border-top:none!important;
+}
+/*通话记录详情表格*/
+.callQuery-table td{
+    color: #6d798d;
+}
+.callQuery-tabletr:nth-child(even){
+    background-color: #F4F7FC;
+}
+.callQuery-table td,.callQuery-table th{
+    box-sizing: border-box;
+    border: 1px solid #E9ECF3;
+    height: 60px;
+    /*padding: 10px!important;*/
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle!important;
+    white-space:nowrap;
+}
+.callQuery-table th{
+    border-bottom: none!important;
+}
+.callQuery-table thead{
+    background-color: #F4F7FC;
+    color: #525c6d;
+}
+/*短信发送表格*/
+.message_send_table{
+    width:100%;
+    margin-bottom:0 !important;
+    border:1px solid #e9ecf3;
+}
+.message_send_table th,.message_send_table td{
+    height:60px;
+    line-height: 60px !important;
+    text-align: center;
+    padding:0 !important;
+    border:none !important;
+}
+.message_send_table td{
+    font-size: 16px;
+    color:#6d798d;
+}
+.message_send_table th{
+    font-size: 16px;
+    color:#525c6d;
+    background: #f4f7fc;
+}
+.message_send_table>tbody tr:hover{
+    background: #f8fafd;
+    border-left:3px solid #f2a668;
+}
+.message_send_table>tbody tr td:nth-of-type(1){
+    width: 10%;
+}
+.query-form-ul{
+    margin-right: 30px;
+}
+@media (max-width: 1460px){
+    .CallLoss-btn{
+        /*float: left !important;*/
+        margin-top: 10px;
+    }
+}
+@media(max-width:1657px ){
+    .query-div{
+        float:right;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1450px){
+    .ReturnTask-btn{
+        /*float: left !important;*/
+        margin-top: 10px;
+    }
+}

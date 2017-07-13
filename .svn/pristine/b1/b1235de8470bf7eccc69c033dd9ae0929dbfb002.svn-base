@@ -1,0 +1,113 @@
+/*
+*   客服信息完善
+*/
+.information_p{
+    line-height: 50px;
+    background: #f27668;
+    color: #ffffff;
+    padding: 0;
+    font-size: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.information_content{
+    padding-top:24px;
+}
+.information_div_one{
+    display: table;
+    width:100%;
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+.input-group_gai{
+    font-size: 16px;
+    color: #525c6d;
+}
+.information_table_done{
+    display: table-cell;
+}
+.information_form_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    color: #525c6d;
+}
+.information_input_control{
+    height:44px;
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    padding: 6px;
+    color: #525c6d;
+}
+.dis_table,.information_div_btn{
+    display: table;
+}
+.dis_table_cell1{
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dis_table_cell2{
+    display: table-cell;
+    width: 100%;
+}
+.dis_flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex_l{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.information_ktext{
+    border:1px solid #ebeef5;
+    border-radius: 5px;
+    min-height:104px;
+    padding: 10px;
+}
+.btn-width{
+    padding: 10px 30px;
+    margin: 0 20px;
+    color: #ffffff;
+}
+.btn_close{
+    background: #919fbd;
+}
+.btn_save{
+    background: url("../img/new_order.png") no-repeat;
+    text-decoration: none;
+    color:#fff;
+}
+.btn_save:hover{
+    background: url("../img/new_order_hover.png") no-repeat;
+    text-decoration: none;
+    color:#fff;
+}
+.btn-center{
+    margin: 30px auto;
+}
+.information_margin{
+    margin-bottom: 15px;
+}
+.right_btn{
+    text-align: right;
+
+}
+.right_btn button{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-details{
+    background: url("../img/check_record.png") no-repeat;
+    padding: 10px;
+    color: #FFFFFF;
+    border:0;
+    border-radius: 4px;
+}
+.btn-details:hover{
+    background: url("../img/check_record_hover.png") no-repeat;
+}

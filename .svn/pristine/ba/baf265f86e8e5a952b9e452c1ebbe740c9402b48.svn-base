@@ -1,0 +1,43 @@
+/*
+*   通话记录详情音频修改样式
+*/
+.records_status_bar{
+    padding-top: 30px!important;
+    background: #54c1b8;
+}
+.records_time{
+    display: inline!important;
+    width:auto!important;
+    float: none!important;
+    font-size: 36px!important;
+    color: #ffffff;
+    font-weight: bold;
+}
+.records_outtime{
+    text-align: center!important;
+}
+.records_h{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.records_hspan_one,.records_hspan_two{
+    color: #fafafa;
+    text-shadow: 0 1px 1px #000;
+}
+.records-yu{
+    margin:20px 0 40px 0;
+    background:url("../img/116X44_h.png") no-repeat;
+    height:44px;
+    width:116px;
+    padding:0;
+    color:#fff;
+    display:block;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.records-yu:hover{
+    background:url("../img/116X44_h_hover.png") no-repeat;
+    color: #ffffff;
+}

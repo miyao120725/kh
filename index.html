@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>96512津湘客服系统</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/jquery.dad.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/basicInformation.css">
+    <link rel="stylesheet" href="css/CallQuery.css">
+    <link rel="stylesheet" href="css/doubleDate.css">
+    <link rel="stylesheet" href="css/knowledge_base.css" />
+    <link rel="stylesheet" href="css/Call_records.css">
+    <link rel="stylesheet" href="css/Call_records_yu.css">
+    <link rel="stylesheet" href="css/history_record.css">
+    <link rel="stylesheet" href="css/Information_gen.css" />
+    <link rel="stylesheet" href="css/knowledge_details.css" />
+    <link rel="stylesheet" href="css/customer_information.css" />
+    <link rel="stylesheet" href="css/short_message.css">
+    <link rel="stylesheet" href="css/sms_details.css">
+    <link rel="stylesheet" href="skins/minimal/orange.css" />
+    <link rel="stylesheet" href="css/Call_records_change.css" />
+    <link rel="stylesheet" href="css/liMarquee.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+<body>
+<!--Adapt:1245px-->
+<header class="navbar bg-gray-blue">
+    <nav class="navbar navbar-default nav-box">
+        <form class="navbar-form navbar-left navbar_pad">
+            <div class="form-group">
+                <input type="tel" class="form-control nav-search" placeholder="13623211120">
+            </div>
+        </form>
+        <ul class="navbar-nav navbar-header">
+            <li>
+                <button type="button" class="btn bg-blue">查询</button>
+            </li>
+            <li>
+                <button type="button" class="btn bg-green">接听</button><span class="phone-icon">1</span>
+            </li>
+            <li>
+                <button type="button" class="btn bg-pink">挂断</button>
+            </li>
+            <li>
+                <button type="button" class="btn bg-green">拨打</button><span class="bd-phone-icon">1</span>
+            </li>
+            <li>
+                <button type="button" class="btn bg-wathet ThreePartyCalls_btn" data-toggle="modal" data-target="#ThreePartyCalls">三方通话</button>
+            </li>
+            <li>
+                <button type="button" class="btn bg-wathet Transfer_btn" data-toggle="modal" data-target="#Transfer">转接</button>
+            </li>
+            <li>
+                <button type="button" class="btn bg-purple">静音</button>
+            </li>
+            <li>
+                <p class="missed-num">未接5通</p>
+            </li>
+        </ul>
+        <div class="nav navbar-nav navbar-right ">
+            <p>客服ET001(通话)</p><span class="close-icon"></span>
+        </div>
+    </nav>
+</header>
+<!-- ThreePartyCalls Modal -->
+<div class="modal fade" id="ThreePartyCalls" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal_in">
+        <div class="modal-content">
+            <div style="width: 0px; margin-left: 48%;margin-top: -12px; border-bottom: 13px solid rgb(255,255,255); border-left: 13px solid transparent!important; border-right: 13px solid transparent!important; box-sizing: border-box;"></div>
+            <div class="modal-header tpc_head">
+                <form action="" class="clear">
+                    <div class="Transfer_input">
+                        <input type="tel" placeholder="请输入您要转接的号码">
+                    </div>
+                    <div class="search_input">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="tel" placeholder="搜索">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body">
+                <div class="tpc_box">
+                    <form action="">
+                        <table class="table table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <th class="tpc_first">序号</th>
+                                    <th>公司名称</th>
+                                    <th>部门名称</th>
+                                    <th class="tpc_last">电话号码</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tpc_body">
+                                <tr>
+                                    <th><input type="checkbox">1</th>
+                                    <th>长沙市广大出租车点召服务有限公司</th>
+                                    <th>客服部</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">2</th>
+                                    <th>湖南新快线商旅运输有限公司宁乡分公司</th>
+                                    <th>客服部</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">3</th>
+                                    <th>湖南新快线商旅运输有限公司平江分公司</th>
+                                    <th>客服部1</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">4</th>
+                                    <th>湖南新快线商旅运输有限公司平江分公司</th>
+                                    <th>客服部2</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">5</th>
+                                    <th>湖南万乘汽车贸易有限公司</th>
+                                    <th>销售部</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">6</th>
+                                    <th>湖南万乘汽车贸易有限公司</th>
+                                    <th>售后部</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox">7</th>
+                                    <th>湖南万乘汽车贸易有限公司</th>
+                                    <th>客服部</th>
+                                    <th>0731-82783673</th>
+                                </tr>
+                            </tbody>
+                            <tfoot class="tpc_page">
+                                <tr>
+                                    <td colspan="4">
+                                        <nav class="rt page-pd">
+                                            <ul class="pagination">
+                                                <li class="page"><a href="javascript:;">&lt;上一页</a>
+                                                <li ><a href="javascript:;">1 <span class="sr-only">(current)</span></a>
+                                                <li class="active"><a href="javascript:;">2<span class="sr-only">(current)</span></a>
+                                                <li><a href="javascript:;">...<span class="sr-only">(current)</span></a>
+                                                <li><a href="javascript:;">4 <span class="sr-only">(current)</span></a>
+                                                <li class="page"><a href="javascript:;">下一页&gt;</a>
+                                            </ul>
+                                        </nav>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="tpc_foot">
+                    <button type="button" class="btn btn-gray" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn bg-green">三方通话</button>
+                    <button type="button" class="btn bg-pink">挂断</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Transfer Modal -->
+<div class="modal fade" id="Transfer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal_in1">
+        <div class="modal-content">
+            <div style="width: 0px; margin-left: 48%;margin-top: -12px; border-bottom: 13px solid rgb(255,255,255); border-left: 13px solid transparent!important; border-right: 13px solid transparent!important; box-sizing: border-box;"></div>
+            <div class="modal-header tpc_head">
+                <form action="" class="clear">
+                    <div class="Transfer_input">
+                        <input type="tel" placeholder="请输入您要转接的号码">
+                    </div>
+                    <div class="search_input">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="tel" placeholder="搜索">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body">
+                <div class="tpc_box">
+                    <form action="">
+                        <table class="table table-hover table-responsive">
+                            <thead>
+                            <tr>
+                                <th class="tpc_first">序号</th>
+                                <th>公司名称</th>
+                                <th>部门名称</th>
+                                <th class="tpc_last">电话号码</th>
+                            </tr>
+                            </thead>
+                            <tbody class="tpc_body">
+                            <tr>
+                                <th><input type="checkbox">1</th>
+                                <th>长沙市广大出租车点召服务有限公司</th>
+                                <th>客服部</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">2</th>
+                                <th>湖南新快线商旅运输有限公司宁乡分公司</th>
+                                <th>客服部</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">3</th>
+                                <th>湖南新快线商旅运输有限公司平江分公司</th>
+                                <th>客服部1</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">4</th>
+                                <th>湖南新快线商旅运输有限公司平江分公司</th>
+                                <th>客服部2</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">5</th>
+                                <th>湖南万乘汽车贸易有限公司</th>
+                                <th>销售部</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">6</th>
+                                <th>湖南万乘汽车贸易有限公司</th>
+                                <th>售后部</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox">7</th>
+                                <th>湖南万乘汽车贸易有限公司</th>
+                                <th>客服部</th>
+                                <th>0731-82783673</th>
+                            </tr>
+                            </tbody>
+                            <tfoot class="tpc_page">
+                            <tr>
+                                <td colspan="4">
+                                    <nav class="rt page-pd">
+                                        <ul class="pagination">
+                                            <li class="page"><a href="javascript:;">&lt;上一页</a>
+                                            <li ><a href="javascript:;">1 <span class="sr-only">(current)</span></a>
+                                            <li class="active"><a href="javascript:;">2<span class="sr-only">(current)</span></a>
+                                            <li><a href="javascript:;">...<span class="sr-only">(current)</span></a>
+                                            <li><a href="javascript:;">4 <span class="sr-only">(current)</span></a>
+                                            <li class="page"><a href="javascript:;">下一页&gt;</a>
+                                        </ul>
+                                    </nav>
+                                </td>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="tpc_foot">
+                    <button type="button" class="btn btn-gray" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn bg-green">转接</button>
+                    <button type="button" class="btn bg-pink">挂断</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="alert greetings" role="alert">
+    <div class="seamless_scrolling">
+        <a href="javascript:;"><span class="voice-icon"></span>工作提醒：
+            <span>1.您有<em>23</em>条<i class="call_loss_i">呼损记录</i>待回复；</span>
+            <span>2.您有<em>6</em>条<i class="return_task_i">回访任务</i>待完成；</span>
+            <span>3.您有<em>2</em>条<i class="msg_transmission_i">短信发送</i>失败，待重发。</span>
+        </a>
+        <a href="javascript:;"><span class="remind-icon"></span><span>某某先生/女士</span>：
+            下午好！悠悠的云里有淡淡的诗，绵绵的诗里，有我轻轻的问候！祝您，情人节快乐！
+        </a>
+    </div>
+</div>
+<section class="main dowebok">
+    <div class="navbar-rl">
+        <span class="nav-ico-l drags"></span>
+        <button type="button" class="nav-btn">导航栏 <span></span></button>
+        <div class="nav-scroll">
+            <ul class="clear">
+                <li class="active basic-icon"><a href="#CustomerInformation"><span></span>客户基本信息</a></li>
+                <li class="business-icon"><a href="#CustomerInformation"><span></span>客户业务信息</a></li>
+                <li class="callquery-icon"><a href="#CallQuery"><span></span>通话记录查询</a></li>
+                <li class="smssend-icon"><a href="#MsgTransmission"><span></span>短信发送</a></li>
+                <li class="knowledge-icon"><a href="#knowledgeBase"><span></span>知识库</a></li>
+                <li class="Workorder-icon"><a href="#WorkOrder"><span></span>工单管理</a></li>
+            </ul>
+        </div>
+        <span class="nav-ico-r drags"></span>
+    </div>
+    <!--客户信息-->
+    <div id="CustomerInformation" style="width: 100%;min-width: 1160px">
+        <div class="basic-title-box clear">
+            <div class="basic-title">
+                <h1 class="msg-title">客户基本信息</h1>
+            </div>
+            <div class="business-title">
+                <h1 class="msg-title">客户业务信息</h1>
+            </div>
+        </div>
+        <div class="CustomerInformation"></div>
+    </div>
+    <!--通话记录查询-->
+    <div class="index_width">
+        <div id="CallQuery" >
+            <h1 class="CallQuery-title"></h1>
+            <div class="CallQuery"></div>
+        </div>
+    </div>
+    <!--工单管理-->
+    <div id="WorkOrder" class="index_width">
+        <h1 class="WorkOrder-title"></h1>
+        <div class="WorkOrder"></div>
+    </div>
+    <!--呼损记录-->
+    <div id="CallLoss" class="index_width">
+        <h1 class="CallLoss-title"></h1>
+        <div class="CallLoss"></div>
+    </div>
+    <!--回访任务-->
+    <div id="ReturnTask" class="index_width">
+        <h1 class="ReturnTask-title"></h1>
+        <div class="ReturnTask"></div>
+    </div>
+    <!--短息发送-->
+    <div class="index_width">
+        <div id="MsgTransmission">
+            <h1 class="MsgTransmission-title"></h1>
+            <div class="MsgTransmission"></div>
+        </div>
+    </div>
+    <!--知识库-->
+    <div id="knowledgeBase" class="index_width">
+        <h1 class="knowledge_top"></h1>
+        <div class="knowledgeBase"></div>
+    </div>
+</section>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/doubleDate2.0.js"></script>
+<script type="text/javascript" src="js/jquery.dad.min.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jaudio.js"></script>
+<script type="text/javascript" src="js/icheck.min.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="js/jquery.liMarquee.js"></script>
+<script type="text/javascript" src="js/customer_information.js"></script>
+<script src="laydate/laydate.js"></script>
+<script>
+    $(function(){ $('input,textarea').placeholder(); });
+//无缝滚动
+    $(function(){
+        $('.seamless_scrolling').liMarquee();
+    });
+    laydate.skin('molv');
+    laydate({
+        elem: '#datetimepicker',
+        format: 'YYYY-MM-DD hh:mm:ss', //日期格式
+        istime: true , //是否开启时间选择
+        isclear: true , //是否显示清空
+        istoday: true , //是否显示今天
+        issure: true , //是否显示确认
+        festival: true, //是否显示节日
+        min: '1900-01-01 00:00:00', //最小日期
+        max: '2099-12-31 23:59:59', //最大日期
+        fixed: false, //是否固定在可视区域
+    });
+</script>
+</body>
+</html>

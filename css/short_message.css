@@ -1,0 +1,194 @@
+.short_message_box{
+    width:100%;
+    background: #fff;
+    padding-bottom: 30px;
+    padding-top:20px;
+}
+.short_message_box>h1{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    background: #f2a668;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.form_box {
+    width:80%;
+    margin:0 auto;
+}
+.form_box .form-group{
+    margin:0;
+    font-size: 16px;
+    color:#525C6D;
+}
+.form_box .control-label{
+    width:85px;
+    float: left;
+}
+.phone_box,.message_content_box,.remarks_content_box{
+    width:calc(100% - 85px) !important;
+    float: left;
+}
+.phone_box span,.message_content_box span,.sms_type_box span{
+    font-size: 14px;
+    color:#f27768;
+}
+.sms_type_box span{
+    display: inline-block;
+    height: 0;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.phone,.remarks_content,.message_content{
+    border-radius: 4px !important;
+    padding:10px 15px;
+    width:90%;
+    border:1px solid #EAEDF4;
+    font-size:16px;
+    overflow-y: auto;
+}
+.phone,.message_content{
+    height:154px !important;
+}
+.remarks_content {
+    height:84px !important;
+}
+.sms_content,.sms_type,.file_btn{
+    width:132px !important;
+    height:44px !important;
+    float: left;
+}
+.sms_content,.sms_type{
+    border:1px solid #EAEDF4;
+}
+.file_btn{
+    position: relative;
+    text-direction: none;
+    height: 44px !important;
+    line-height: 44px !important;
+    text-align: center;
+    width: 132px !important;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    background: url("../img/132X44.png") no-repeat;
+   }
+.file_btn:hover{
+    background: url("../img/132X44_hover.png") no-repeat;
+}
+.file_btn input{
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 0px !important;
+    right: 0px !important;
+    opacity: 0;
+    filter: Alpha(opacity:0);
+}
+.file_btn_box,.message_content_box{
+    margin:10px 0 20px  0 !important;
+}
+.message_type_box{
+    margin-bottom:20px !important;
+}
+.message_content_box textarea[disabled="disabled"]{
+    background: #fff;
+    color:#adb6c2;
+}
+.sms_content,.sms_type{
+    color:#adb6c2;
+    border-radius: 4px;
+}
+.send_btn,.close_btn{
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+}
+.close_btn>a{
+    display: block;
+    height:44px;
+    line-height: 44px;
+    color:#fff;
+    text-decoration: none;
+}
+.send_btn_box{
+    width:100%;
+    text-align: center;
+    margin-top:20px;
+}
+.send_btn{
+    width:116px;
+    height:44px;
+    margin-right:50px;
+    background: url("../img/114X66_o.png") no-repeat;
+}
+.send_btn:hover{
+    background: url("../img/114X66_o_hover.png") no-repeat;
+}
+.send_msg_btn{
+    display: inline-block;
+    width:116px;
+    height:44px;
+    background: url("../img/116X44_h.png") no-repeat;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    margin-right:50px;
+    color: #fff;
+    font-size: 18px;
+   }
+.send_msg_btn:hover{
+    background: url("../img/116X44_h_hover.png") no-repeat;
+    text-decoration: none;
+    color: #fff;
+}
+ .modalme_width{
+     width:320px;
+     height:200px;
+     border-radius: 4px;
+ }
+.modal.in .modalme_width{
+    transform: translate(0,100%) !important;
+}
+.modal-content1{
+    border:none !important;
+}
+.modal-body{
+    padding:34px 19px;
+}
+.modal-body h2,.modal-body p{
+    font-size: 18px;
+    color:#525c6d;
+}
+.modal-body h2,.paragraph_two{
+    text-align: center;
+    margin:10px 0;
+}
+.modal-body.paragraph_one{
+    text-align: left;
+}
+.paragraph_one>i{
+    font-style: normal;
+}
+.paragraph_close_btn_box{
+    text-align: center;
+    margin-top:15px;
+}
+.paragraph_close_btn{
+    width:116px;
+    height:44px;
+    color:#fff;
+    font-size: 18px;
+    border-radius:6px;
+    border:none;
+    background:-webkit-linear-gradient(top,#95a3c2,#8996b3);
+    background:-moz-linear-gradient(top,#95a3c2,#8996b3);
+    background:-o-linear-gradient(top,#95a3c2,#8996b3);
+    background:linear-gradient(top,#95a3c2,#8996b3);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95a3c2', endColorstr='#8996b3',GradientType=0 );
+}:root .gradient{filter:none;}

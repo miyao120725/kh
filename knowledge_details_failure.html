@@ -1,0 +1,96 @@
+
+<div class="knowledge">
+    <div class="information_content_ku container">
+        <!--失效标签-->
+        <img src="img/login_images/已失效.png" class="knowledge_failure">
+        <!--失效标签-->
+        <form action="">
+            <div class="information_div_one failure">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gais dis_table_cell1">知识点编号：</span>
+                        <div class="information_word dis_table_cell2">D161017005</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gai dis_table_cell1">所属大类：</span>
+                        <div class="information_word dis_table_cell2">话术知识</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">所属小类：</span>
+                        <div class="information_word dis_table_cell2">维保预约订单话术</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="dis_table">
+                        <span class="dis_table_cell1 input-group_gai">状态：</span>
+                        <div class="information_word dis_table_cell2">已发布</div>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one failure">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gais dis_table_cell1">知识点标题：</span>
+                        <input type="text" class="information_input_control dis_table_cell2" placeholder="Username" readonly="readonly">
+                    </div>
+                </div>
+            </div>
+            <div class="dis_flex information_margin failure">
+                <span class="input-group_gai">知识点内容：</span>
+                <textarea class="flex_l information_text" readonly="readonly"></textarea>
+            </div>
+            <div class="information_div_one failure">
+                <div class="dis_table">
+                    <span class="dis_table_cell1 input-group_gai"><i class="font_there">关键</i>词：</span>
+                    <div class="dis_table_cell2 dis_label">
+                        <a class="detail_label">话术</a>
+                        <a class="detail_label">维修保养</a>
+                        <a class="detail_label">订单</a>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one failure">
+                <div class="dis_table">
+                    <span class="dis_table_cell1 input-group_gai"><i class="font_two" style="">附</i>件：</span>
+                    <div class="dis_table_cell2">
+                        <a>
+                            <img src="img/login_images/附件1.png">
+                            <span>文件名和格式</span>
+                        </a>（<span>12.3kb</span>）
+                        <a>下载</a>
+                        <a>预览</a>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_one failure">
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gai dis_table_cell1"><i class="font_there">发布</i>人：</span>
+                        <div class="information_word dis_table_cell2">某某</div>
+                    </div>
+                </div>
+                <div class="information_table_done">
+                    <div class="input-group_gai dis_table">
+                        <span class="input-group-gais dis_table_cell1">发布时间：</span>
+                        <div class="information_word dis_table_cell2">2016-11-16</div>
+                    </div>
+                </div>
+            </div>
+            <div class="information_div_btn btn-center">
+                <a href="knowledgeBase.html" class="detail_failure btn btn-width btn_close">关闭</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        Title(".knowledge_top","知识库详情");
+        var a = $(".detail_failure"),d = ".knowledgeBase";
+        Jump(a,d);
+    });
+    $(function(){ $('input,textarea').placeholder(); });
+</script>
